@@ -16,7 +16,7 @@ while keep_going == "":
     token = input("Enter a token: ")
 
     # Adjust total correctly for a given token
-    if token == "unicorn" :
+    if token == "unicorn":
         total += 5
         feedback = "Congratulations, you won $5.00"
     elif token == "donkey":
