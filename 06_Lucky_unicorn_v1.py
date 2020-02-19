@@ -25,7 +25,7 @@ def num_check(question, low, high):
 
 # Ask user how much they want to play with (min $1, max $10)
 
-balance = num_check("How much money would you like to play with? ", 1, 10)
+balance = num_check("How much money would you like to play with? $", 1, 10)
 
 keep_going = ""
 while keep_going == "":
