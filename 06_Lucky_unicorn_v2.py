@@ -26,7 +26,7 @@ def token_statement(statement, char):
     print(char * len(statement))
     print(statement)
     print(char * len(statement))
-    print
+    print()
 # Main routine
 
 # Cost payout constants
@@ -59,7 +59,7 @@ keep_going = ""
 while keep_going == "":
 
     # Tokens list includes 10 items to prevent too many unicorns being chosen
-    tokens = ["horse","horse", "horse",
+    tokens = ["horse", "horse", "horse",
               "zebra", "zebra", "zebra",
               "donkey", "donkey", "donkey", "unicorn"]
 
