@@ -88,7 +88,8 @@ while keep_going == "":
         keep_going = "end"
     else:
         keep_going = input("Press <enter> to play again or any key to quit. ")
+print()
 
 # Farewell user at the end of the game.
-print("You played a total of {} rounds".format(round_count))
+print("You played {} rounds".format(round_count))
 print("Thank you for playing.")
