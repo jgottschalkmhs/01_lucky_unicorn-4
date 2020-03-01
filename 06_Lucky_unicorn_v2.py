@@ -91,5 +91,5 @@ while keep_going == "":
 print()
 
 # Farewell user at the end of the game.
-print("You played {} rounds and leave with {}.".format(round_count,))
+print("You played {} rounds and leave with ${:.2f}".format(round_count, balance))
 print("Thank you for playing.")
